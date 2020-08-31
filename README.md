@@ -31,4 +31,7 @@ will return to docking station for
 charging if the specified threshold is
 reached.
 
+Phase 1: Building a web interface controlled car with sensors
+
+         Goal : To move the rc car autonomously
 
