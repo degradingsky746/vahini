@@ -33,5 +33,7 @@ reached.
 
 Phase 1: Building a web interface controlled car with sensors
 
+Idea is to later implement this on a bigger scale
+
          Goal : To move the rc car autonomously
 
