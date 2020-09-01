@@ -48,9 +48,8 @@ fi
 sudo apt-get update
 #sudo apt-get upgrade -y
 
-###################################
+
 # install python-smbus runtime #
-###################################
 	echo -e "\n    Installing  python-smbus \n"
 
 	if sudo apt-get install python-smbus -y;then
@@ -67,9 +66,8 @@ sudo apt-get update
 		fi
 	fi
 
-###################################
+
 # Install RPi Car V2 Module
-###################################
 	echo -e "Cloning repo \n"
 	cd ../
 	git clone --recursive https://github.com/sunfounder/SunFounder_PiCar.git
@@ -81,9 +79,8 @@ sudo apt-get update
 	echo -e "complete\n"
 
 
-###################################
+
 # Enable I2C1 #
-###################################
 # Add lines to /boot/config.txt
 	echo -e "Enalbe I2C \n"
 	egrep -v "^#|^$" /boot/config.txt > config.txt.temp  # pick up all uncomment configrations
