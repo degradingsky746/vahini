@@ -3,12 +3,20 @@ import picar
 from picar import front_wheels,back_wheels 
 import time
 
+#to specify the port numbers for the dc motors and the servo motor and basic callibration
 picar.setup()
-fspeed = 0
+
+#forward speed
+fspeed = 0 
+
+#backward speed
 rspeed = 0
+
+#creating instances of wheel from the picar module
 fw = front_wheels.Front_Wheels(db='config')
 bw = back_wheels.Back_Wheels(db='config')
 
+#front wheels rotation angle
 l_angle = 0
 r_angle = 0
 
