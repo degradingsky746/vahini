@@ -35,5 +35,7 @@ Phase 1: Building a web interface controlled car with sensors
 
 Idea is to later implement this on a bigger scale
 
-         Goal : To move the rc car autonomously
+RC car used is SunFounder_PiCar-S . There github repo:https://github.com/sunfounder/SunFounder_PiCar-S
+
+         Goal Phase 1: To move the rc car autonomously
 
