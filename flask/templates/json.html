@@ -1,0 +1,30 @@
+<html> 
+<body> 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+<div class='container'>
+
+        <form>
+            <input type="range" min="0" max="100" id=forward></a>
+        </form>
+
+</div>
+<script type=text/javascript>
+        //var str='/forward'
+        var x =0;
+        $(function() {
+          $('#forward').bind('mouseup', function() {
+            x =document.getElementById("forward").value; 
+            $.getJSON('/forward',{post: x},
+                function(data) {
+              //do nothing
+            });
+            return false;
+          });
+        });
+        
+</script>
+
+</body> 
+</html>
